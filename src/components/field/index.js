@@ -352,6 +352,7 @@ export default class TextField extends PureComponent {
       containerStyle,
       inputContainerStyle: inputContainerStyleOverrides,
       clearTextOnFocus,
+      initLabelTop,
       ...props
     } = this.props;
 
@@ -494,6 +495,7 @@ export default class TextField extends PureComponent {
       focused,
       errored,
       restricted,
+      initLabelTop,
       style: labelTextStyle,
     };
 
