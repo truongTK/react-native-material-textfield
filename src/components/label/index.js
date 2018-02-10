@@ -92,6 +92,7 @@ export default class Label extends PureComponent {
       active,
       focused,
       animationDuration,
+      initLabelTop,
       ...props
     } = this.props;
 
